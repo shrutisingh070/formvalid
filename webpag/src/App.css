@@ -1,0 +1,98 @@
+/* Page Background */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Arial, sans-serif;
+  background: linear-gradient(135deg, #ffdde1, #ee9ca7); /* soft pink */
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Container */
+.container {
+  background: white;
+  padding: 30px;
+  max-width: 400px;
+  width: 100%;
+  border-radius: 16px;
+  text-align: center;
+  box-shadow: 0px 8px 20px rgba(0,0,0,0.2);
+}
+
+h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Items List */
+.items {
+  list-style: none;
+  padding: 0;
+}
+
+.items li {
+  padding: 8px;
+  margin: 5px 0;
+  background: #f7f7f7;
+  border-radius: 8px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+/* Pagination Layout */
+.pagination {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+/* Page Number Buttons (Pink) */
+.pagination button {
+  padding: 8px 14px;
+  border: none;
+  border-radius: 50px;
+  background: #ffd6e0; /* light pink */
+  color: #333;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Active Page */
+.pagination .active {
+  background: #ff4d88; /* dark pink */
+  color: #fff;
+  font-weight: bold;
+  box-shadow: 0px 3px 7px rgba(255, 77, 136, 0.5);
+}
+
+/* Hover Effect */
+.pagination button:hover {
+  background: #ff4d88;
+  color: #fff;
+  transform: scale(1.05);
+}
+
+/* Prev/Next Buttons (Yellow) */
+.pagination .nav-btn {
+  background: #ffeb99; /* yellow */
+  font-weight: bold;
+}
+
+.pagination .nav-btn:hover {
+  background: #6933ff; /* darker yellow */
+  color: #000;
+  transform: scale(1.05);
+}
+
+/* Disabled Buttons */
+.pagination button:disabled {
+  background: #f2b6c1;
+  color: #888;
+  cursor: not-allowed;
+  box-shadow: none;
+}
