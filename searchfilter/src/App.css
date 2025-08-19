@@ -1,0 +1,57 @@
+/* Full screen container */
+.container {
+  background-color: black;       /* full black background */
+  color: white;                  /* default text color */
+  height: 100vh;                 /* 100% of viewport height */
+  width: 100vw;                  /* 100% of viewport width */
+  display: flex;                 /* flexbox for alignment */
+  flex-direction: column;        /* stack children vertically */
+  justify-content: center;       /* center vertically */
+  align-items: center;           /* center horizontally */
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  box-sizing: border-box;        /* include padding inside width/height */
+}
+
+/* Heading */
+h2 {
+  margin-bottom: 20px;
+  font-size: 28px;
+  color: pink;                   /* nice highlight */
+}
+
+/* Search box */
+.search-box {
+  padding: 10px 15px;
+  font-size: 18px;
+  border-radius: 8px;
+  border: none;
+  margin-bottom: 25px;
+  outline: none;
+}
+
+/* List */
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 250px;
+}
+
+/* List items */
+li {
+  background: pink;
+  color: black;
+  font-size: 18px;
+  padding: 10px 15px;
+  margin: 8px 0;
+  border-radius: 8px;
+  text-align: center;
+  transition: transform 0.2s ease;
+}
+
+/* Hover effect on list */
+li:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
