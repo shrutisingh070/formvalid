@@ -1,0 +1,32 @@
+body {
+  font-family: "Georgia", serif;
+  line-height: 1.6;
+  background: #b49910;
+  margin: 0;
+  padding: 20px;
+}
+
+.book-content {
+  max-width: 700px;
+  margin: auto;
+  text-align: center;
+}
+
+.scroll-btn {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background: #222;
+  color: white;
+  border: none;
+  padding: 12px 18px;
+  border-radius: 50px;
+  cursor: pointer;
+  font-size: 16px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+  transition: background 0.3s ease;
+}
+
+.scroll-btn:hover {
+  background: #444;
+}
