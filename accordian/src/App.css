@@ -1,0 +1,22 @@
+.container{
+  width: 300px;
+  height: 300px;
+  display: flex;
+  justify-content: center; /* center horizontally */
+  align-items: center;
+  
+}
+.imagebox{
+  
+  background-color: black;
+}
+
+
+
+.next-btn{
+background-color: rgb(220, 20, 137);
+size: 0ch;
+}
+.prev-btn{
+background-color: deepskyblue;
+}
