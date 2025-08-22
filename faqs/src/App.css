@@ -1,0 +1,40 @@
+.container{
+  background-color: black;
+}
+.content {
+  max-height: 0;
+  overflow: hidden;
+  
+  padding: 0 10px;
+  background: #cfbb9d;
+  border-left: 3px solid #007bff;
+  margin-bottom: 10px;
+}
+
+/* When opened */
+.content.show {
+  max-height: 200px;  /* Adjust depending on answer length */
+  padding: 10px;
+}
+
+/* FAQ Question style */
+h2 {
+  margin: 0;
+  font-size: 18px;
+  display: inline-block;
+  background-color: aqua;
+}
+
+h1{
+  text-decoration: underline;
+  font-style: italic;
+  
+}
+
+
+
+/* Plus/Minus symbol */
+span {
+  font-size: 22px;
+  font-weight: bold;
+}
